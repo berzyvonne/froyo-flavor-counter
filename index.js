@@ -8,8 +8,9 @@ const flavors = prompt(
 // empty object to store the froyo flavors
 let flavorCounts = {};
 
-for (let index = 0; index < flavors.length; index++) {
-  const element = flavors[index];
+// for loop to iterate through the flavors array
+for (let i = 0; i < flavors.length; i++) {
+  const element = flavors[i];
   console.log(element);
 }
 
